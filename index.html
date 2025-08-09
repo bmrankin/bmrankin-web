@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="css/pico.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 200;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .hover-opacity:hover {
+      opacity: 0.7;
+    }
+
+    .footer-icon-hover img {
+      border-bottom: 2px solid transparent;
+    }
+
+    .footer-icon-hover:hover img {
+      /* filter: invert(41%) sepia(99%) saturate(746%) hue-rotate(176deg) brightness(92%) contrast(92%); */
+      transition: filter 0.2s;
+      border-bottom: 2px solid #ef381f;
+    }
+    ul.list-none {
+      padding: 0;
+      margin: 0;
+    }
+    ul.list-none li {
+      list-style-type: none;
+      font-size: .75rem;
+      /* margin-bottom: 0.5rem; */
+    }
+  </style>
+  <title>Bryan Rankin</title>
+</head>
+
+<body>
+  <main class="container">
+    <article>
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 2rem; margin-bottom: 2rem;">
+        <img src="images/bmrankin-logo.svg" alt="Bryan Rankin Logo"
+          style="max-width: 200px; max-height: 200px; width: 100%; height: auto; display: block;">
+      </div>
+      <h1 class="text-center">Bryan Rankin</h1>
+      <p class="text-center">
+        Senior software engineer and application consultant
+      </p>
+      <div class="grid text-center" style="margin-top: 2rem;">
+        <div>
+          <h2>Skills</h2>
+          <ul class="list-none">
+            <li>Full-stack JavaScript/Typescript applications</li>
+            <li>Vue.js</li>
+            <li>Node.js</li>
+            <li>Serverless Cloud Functions (GCP/Azure)</li>
+          </ul>
+        </div>
+        <div>
+          <h2>
+            Experience
+          </h2>
+          <ul class="list-none">
+            <li>Software Engineer at MCE Automation (Current)</li>
+            <li>Sr. Software Engineer and Director of Technology at Daughtridge Sales</li>
+            <li>Chef and Culinary Curator at Milton & Miles</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+    <footer class="text-center">
+      © 2025 Bryan Rankin
+      <a class="footer-icon-hover" href="https://github.com/bmrankin" target="_blank"><img src="images/github-brands-solid-full.svg" alt="GitHub - bmrankin" style="max-width: 24px; height: auto;"></a>
+      <a class="footer-icon-hover" href="https://www.linkedin.com/in/bryan-rankin-0224822b/" target="_blank"><img src="images/linkedin-brands-solid-full.svg" alt="LinkedIn - Bryan Rankin" style="max-width: 24px; height: auto;"></a>
+    </footer>
+  </main>
+</body>
+
+</html>
